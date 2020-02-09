@@ -1,0 +1,299 @@
+*
+{
+    --height_img_start:
+    --dark-color: DarkSlateGray;
+    --main-color: DarkOrange;
+    --main-color-2: DarkViolet;
+    --light-color: Gainsboro;
+}
+
+
+body
+{
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding:0px;
+    margin: 0px;
+    font-size: 18px;
+}
+#container
+{
+    width: 100%;
+    height: 100%;
+    
+} 
+
+#logobar
+{
+    background-color : #007f82;
+    font-size: 1vw;
+    width: 7%;
+    height:95%;
+    float: left;  
+}
+
+#logobar a
+{
+    
+    text-decoration: none;
+    
+}
+.logo
+{
+    
+    padding-top:20% ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+
+.logo img
+{
+    width: 50%;  
+    
+}
+#logobar .p-container
+{
+    
+    
+}
+
+#logobar .p-container p
+{
+    padding-top: 5%;
+    margin: 0;
+}
+
+#content
+{
+    background-color : #007f82;
+    width: 82%;
+    height: 95%;
+    float: left;  
+}
+
+/* YOU */
+#web-frame
+{
+    font-size: 1.2vw;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    margin-left: 18%;
+    margin-top: 7%;
+    border-bottom:2px outset #313131;
+    border-right:2px outset #313131;
+    border-top:2px outset #c0c0c0;
+    border-left:2px outset #c0c0c0;
+}
+
+#web-bar
+{
+    color: white;
+    widows: 100%;
+    height: 5%;
+    background-color: blue;
+}
+
+.web-button
+{
+    float: right;
+    margin:0.5%;
+}
+
+#web-nav
+{
+    clear: both;
+    background-color:#c0c0c0;
+    widows: 100%;
+    height: 5%;
+}
+
+#web-nav p
+{
+    float: left;
+    padding:0;
+    margin:0;
+    margin-top: 0.7%;
+}
+
+#http-box
+{
+    width: 90%;
+    height: 70%;
+    float: left;
+    margin-top: 0.4%;
+   
+    border:2px inset #858585;
+    background-color: white;
+}
+/* /YOU */
+
+#ad
+{
+    background-color : #007f82;
+    width: 10%;
+    height: 95%;
+    float: left;
+    
+}
+
+#footer
+{
+    clear: both;
+    background-color:#c0c0c0;
+    width: 100%;
+    height: 5%;
+    border-top: 3px solid white;
+}
+
+#menu-up
+{
+    
+    width: 8%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: inline-block; 
+    
+}
+/*
+#menu-up:hover #menu-content
+{
+    display: block;
+}
+*/
+.menu-button
+{
+    
+    position: relative;
+    display: inline-block; 
+    font-size: 1vw;
+    background-color:#c0c0c0;
+    color: black;
+    height: 70%;
+    width: 80%;
+    border-top:2px outset white;
+    border-left:2px outset white;
+    border-bottom:2px outset #313131;
+    border-right:2px outset #313131;
+    margin: 5%;
+}
+.menu-button:focus
+{
+ outline: 0;
+}
+/*
+.menus-button:hover
+{
+    border:2px inset #858585; 
+}
+*/
+#menu-content
+{
+    font-size: 1vw;
+    width: 300%;
+    height: auto;
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    background-color: #c0c0c0;
+    border-bottom:2px outset #313131;
+    border-right:2px outset #313131;
+    border-top:2px outset white;
+    border-left:2px outset white;
+    z-index: 1;
+    margin-left: 3%;
+}
+
+#menu-content a
+{
+    color: black;
+    text-decoration: none;
+    clear: both;
+}
+
+#menu-ad
+{
+    width:30%;
+    float: left;
+}
+
+#img-ad
+{
+    height:100px;
+    width:100px;
+}
+#menu-cell
+{
+    width: 68%;
+    float: left;
+}
+
+
+.menu-cell
+{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    clear: both;
+}
+
+.menu-cell img
+{
+    width:30%;
+    float: left;
+    
+    
+}
+
+#menu-content .p-container
+{
+    padding:0;
+    margin:0;
+    float: left;
+    width: 70%;
+    
+}
+
+#menu-content  .p-container p
+{
+    margin: 0;
+    padding-left:10%;
+    padding-top: 16%;
+    
+}
+#minimaze
+{
+    width: 10%;
+    height: 50%;
+    float: left;
+    margin: 0.55%;
+    border:2px inset #858585;
+    background-color: #dfdfdf;
+}
+
+#time
+{
+    width: 10%;
+    height: 70%;
+    float: right;
+    margin: 0.2%;
+    border:2px inset #858585;
+    font-size: 0.85vw;
+}
+
+/* Wake up */
+#container-shutdown
+{
+    widows: 100%;
+    height: 100%;
+    background-color: black;
+}
+#a-wakeup a
+{
+    cursor: default;
+}
